@@ -43,7 +43,7 @@ export default function TextForm(props) {
 
     return (
         <>
-        <div className="container my-3">
+        <div className={`container my-3 text-${props.mode==='light'?'dark':'light'}`}>
             <div className="mb-3">
                 <label htmlFor="myBox" className="form-label">{props.heading}</label>
                 <textarea placeholder ="Enter text here.." onChange={handleOnChange} className="form-control" id="myBox" rows="8" value={text}></textarea>
