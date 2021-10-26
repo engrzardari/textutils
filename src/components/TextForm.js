@@ -51,7 +51,7 @@ export default function TextForm(props) {
             <button className="btn btn-outline-success" onClick={handleUpClick}>Convter to Uppercase</button>
             <button className="btn btn-outline-success mx-2" onClick={handleLlowerClick}>Convter to LowerCase</button>
             <button className="btn btn-outline-success mx-2" onClick={handleMinifyClick}>Minify CSS</button>
-            <button className="btn btn-outline-success mx-2" onClick={handlePretifyClick}>Clear Text</button>
+            <button className="btn btn-outline-success mx-2" onClick={handleClear}>Clear Text</button>
         </div>
         <div className="container my-3">
         <h1 className="">Your text Summary</h1>
